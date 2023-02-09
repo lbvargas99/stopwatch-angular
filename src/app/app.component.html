@@ -1,0 +1,12 @@
+<div class="body">
+  <h1>Stopwatch Exercises</h1>
+  
+  <div class="main">
+    <div class="btn-config">
+      <button class="btn" *ngIf="!config" (click)="config = true">Add Exercise</button>
+      <button class="btn" *ngIf="config" (click)="config = false"><<</button>
+    </div>
+    <app-config *ngIf="config">Configurações</app-config>
+    <app-timer *ngIf="!config">Cronômetro</app-timer>
+  </div>
+</div>

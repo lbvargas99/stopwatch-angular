@@ -1,0 +1,30 @@
+.inputs {
+    margin: 15px;
+}
+
+input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+    padding: 8px;
+}
+
+th {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+}
+
+tr:nth-child(2n+3) {
+    background-color: #00a0fd46;
+}
+
+tr:hover:nth-child(1n+2) {
+    background-color: rgba(0, 0, 0, 0.199);    
+}

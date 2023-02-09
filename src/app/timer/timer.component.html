@@ -1,0 +1,10 @@
+<div class="ex ex-timer">{{ts.timeLeft / 1000 | number: '1.1-1'}}</div>
+<div class="ex">Exercise {{ts.currentEx + 1}}/{{ts.exercises.length}}: {{ts.exercises[ts.currentEx].name}}</div>
+<div class="ex">Repetition {{ts.currentRep + 1}}/{{ts.exercises[ts.currentEx].repetition}}</div>
+<div class="ex">{{formatPhase(ts.phase)}}</div>
+<div>
+    <button class="btn" (click)="start()">Start</button>
+    <button class="btn" (click)="pause()">Pause</button>
+    <button class="btn" (click)="restart()">Restart</button>
+    <button class="btn" (click)="next()">Next</button>
+</div>
