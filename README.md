@@ -1,6 +1,6 @@
 # StopWatch
 <h1 align="center">
-    <img alt="gif to show program" title="Show program" src="./src/assets/StopwatchGif.gic />
+    <img alt="gif to show program" title="Show program" src="./src/assets/StopwatchGif.gif" />
 </h1>
 
 # Descrição
